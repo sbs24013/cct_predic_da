@@ -1,0 +1,4 @@
+one_hot_df = pd.get_dummies(dataset, prefix="NAME_OF_VARIABLE_ENCODED_HERE", 
+                            columns=["NAME_OF_VARIABLE_ENCODED_HERE"], 
+                            drop_first=False)
+one_hot_df.head()
